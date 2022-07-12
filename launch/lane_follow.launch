@@ -25,9 +25,9 @@
       <param name="camera_topic_name" type="str" value="camera_view" />
   </node>
 
-  <!-- launch the line follow node -->
+  <!-- launch this node -->
   <node pkg="spring_line_sim" name="line_follow" type="line_follow.py" required="true" output="screen" >
       <param name="camera_topic_name" type="str" value="camera_view" />
   </node>
-
+  
 </launch>
